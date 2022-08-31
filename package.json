@@ -1,0 +1,19 @@
+{
+  "name": "pactumjs-test-api",
+  "version": "1.0.0",
+  "description": "Projeto base para teste de api com pactumjs",
+  "main": "index.js",
+  "repository": "https://github.com/jonatasmfaria/pactumjs-test-api.git",
+  "author": "Jonatas <Jonatas>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./tests/**/**.test.js"
+  },
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "pactum": "^3.1.14",
+    "pactum-influxdb-reporter": "^1.0.3",
+    "pactum-json-reporter": "^1.0.2",
+    "pactum-swagger-coverage": "^1.0.1"
+  }
+}

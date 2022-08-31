@@ -1,0 +1,54 @@
+{
+  "tests": [],
+  "steps": [],
+  "specs": [
+    {
+      "id": "x7q4k",
+      "request": {
+        "url": "https://petstore.swagger.io/v2/pet/findByStatus",
+        "method": "GET",
+        "path": "/v2/pet/findByStatus",
+        "pathParams": {
+          "status": "available"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 588
+      },
+      "recorded": {}
+    },
+    {
+      "id": "x7q4k",
+      "request": {
+        "url": "https://petstore.swagger.io/v2/pet/findByStatus",
+        "method": "GET",
+        "path": "/v2/pet/findByStatus",
+        "pathParams": {
+          "status": "pending"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 409
+      },
+      "recorded": {}
+    },
+    {
+      "id": "x7q4k",
+      "request": {
+        "url": "https://petstore.swagger.io/v2/pet/findByStatus",
+        "method": "GET",
+        "path": "/v2/pet/findByStatus",
+        "pathParams": {
+          "status": "sold"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 407
+      },
+      "recorded": {}
+    }
+  ]
+}
