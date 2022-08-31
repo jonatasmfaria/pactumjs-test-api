@@ -7,7 +7,8 @@
   "author": "Jonatas <Jonatas>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha ./tests/**/**.test.js"
+    "test:hml": "mocha --spec ./tests/**/**/**.test.js",
+    "test:hml:junit": "mocha --spec ./tests/**/**/**.test.js --reporter mocha-junit-reporter"
   },
   "dependencies": {
     "mocha": "^10.0.0",
